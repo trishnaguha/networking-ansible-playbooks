@@ -1,0 +1,5 @@
+- hosts: eoshost
+  gather_facts: no
+
+  tasks:
+  - include: eostest.yml

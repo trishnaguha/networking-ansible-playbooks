@@ -1,0 +1,8 @@
+- name: EOS Version
+  eos_command:
+    commands:
+      - show version
+      - show interfaces
+  register: result
+
+- debug: var=result
