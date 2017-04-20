@@ -1,0 +1,6 @@
+- hosts: eoshost
+  gather_facts: no
+
+  tasks:
+  #- include: eoscommand.yml
+  - include: eosbanner.yml

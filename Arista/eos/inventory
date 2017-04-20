@@ -1,0 +1,2 @@
+[eoshost]
+HOSTIP ansible_connection=local ansible_user=<USER> ansible_ssh_pass=<PASSWORD>
