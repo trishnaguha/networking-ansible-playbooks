@@ -1,0 +1,4 @@
+- name: configure hsrp interface
+  nxos_hsrp:
+    interface: loopback0
+    transport: cli

@@ -1,0 +1,5 @@
+- name: Nxos Vrf
+  nxos_vrf:
+    vrf: ntc
+    state: present
+    admin_state: up

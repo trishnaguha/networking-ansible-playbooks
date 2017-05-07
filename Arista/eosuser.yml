@@ -1,0 +1,22 @@
+#- name: Create new user
+#  eos_user:
+#    username: test
+    #sshkey: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+#    state: present
+#    authorize: yes
+#  register: result
+
+#- debug: "{{ result }}"
+
+#- name: Multiple user
+#  eos_user:
+#    users:
+#      - username: test
+#    privilege: 15
+#    authorize: yes
+#    state: present
+#
+- name: Purge
+  eos_user:
+    purge: yes
+    authorize: yes

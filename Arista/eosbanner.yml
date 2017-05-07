@@ -7,3 +7,9 @@
       string
     state: present
     authorize: yes
+    provider:
+      transport: cli
+  register: result
+
+- debug:
+    msg: "{{ result }}"
