@@ -1,0 +1,5 @@
+- hosts: ioshost
+  gather_facts: no
+
+  tasks:
+  - include: ioscommand.yml

@@ -1,0 +1,5 @@
+- name: ios command
+  ios_command:
+    commands:
+      - show version
+    timeout: 60

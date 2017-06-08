@@ -1,0 +1,2 @@
+[ioshost]
+IP ansible_connection=local ansible_user=USER ansible_shh_pass=PASS
